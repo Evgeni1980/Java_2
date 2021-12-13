@@ -1,4 +1,4 @@
-package geekbrains.lesson_1;
+package lesson_1;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
         };
 
         Let[] lets = {
-                new Treadmill(250),
+                new Treadmill(150),
                 new Wall(3)
         };
 

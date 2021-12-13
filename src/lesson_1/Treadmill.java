@@ -1,4 +1,4 @@
-package geekbrains.lesson_1;
+package lesson_1;
 
 public class Treadmill implements Let {
     private int distance;

@@ -1,4 +1,4 @@
-package geekbrains.lesson_1;
+package lesson_1;
 
 public class Human implements Competitor {
     private int MAX_RUN;
@@ -9,9 +9,6 @@ public class Human implements Competitor {
         this.MAX_JUMP = MAX_JUMP;
     }
 
-//    public Human() {
-//        this(300,1);
-//    }
 
     @Override
     public boolean run(int distance) {
