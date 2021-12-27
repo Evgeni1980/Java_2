@@ -34,5 +34,21 @@ public class Main {
 
         System.out.print(repeat);
 
+                    // Добавление записей
+
+        Phone book = new Phone();
+        book.add("Petrov", "12345678");
+        book.add("Sidorov", "87654321");
+        book.add("Putin", "13579468");
+        book.add("Petrov", "37945618");
+        book.add("Ivanov", "10050023");
+
+                    // Вывод по фамилии
+
+        System.out.println("Tel: " + book.get("Petrov") );
+        System.out.println("Tel: " + book.get("Sidorov") );
+        System.out.println("Tel: " + book.get("Putin") );
+        System.out.println("Tel: " + book.get("Ivanov") );
+
     }
 }
